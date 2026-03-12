@@ -373,7 +373,7 @@ def send_email_with_attachment(sender_email, sender_password, receiver_emails,
         email_message['Subject'] = subject
         
         # Attach the message body
-        email_message.attach(MIMEText(message, 'plain'))
+        email_message.attach(MIMEText(message, 'plain', 'utf-8'))
         
         # Attach the file
         with open(attachment_path, 'rb') as file:
