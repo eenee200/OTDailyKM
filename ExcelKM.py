@@ -525,7 +525,7 @@ if __name__ == "__main__":
 
         SENDER_EMAIL = os.environ.get('SENDER_EMAIL')   
         SENDER_PASSWORD = os.environ.get('SENDER_PASSWORD')
-        RECEIVER_EMAILS = "saranguam@riotinto.com, 	OTJourneyManagemet@ot.mn"
+        RECEIVER_EMAILS = "saranguam@riotinto.com"
 
         if output_file:
                 
